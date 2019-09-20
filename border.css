@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .border_example {
+            border-bottom:thin red solid;
+            border-top:thin red dotted;
+        }
+        .nav_bar {
+            background: black;
+            padding: 20px;
+            width: 100%;
+        }
+        .nav_bar a{
+            background: cornflowerblue;
+            border: thin lightgray solid;
+            color:white;
+            text-decoration: none;
+            padding: 10px 20px;
+            /*width: 25%;*/
+        }
+        </style>
+    </head>
+    <body>
+        <nav class="nav_bar">
+            <a href="#">This is my Link </a>
+            <a href="#">This is my Link </a>
+            <a href="#">This is my Link </a>
+            <a href="#">This is my Link </a>
+        </nav>
+        
+​
+    </body>
+</html>
+Collapse
+
+
+

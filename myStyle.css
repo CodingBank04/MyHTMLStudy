@@ -1,0 +1,7 @@
+/* This is my first CSS file */
+*{
+    margin: 0;
+}
+p{
+    color:red;
+}

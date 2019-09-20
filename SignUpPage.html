@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        #myForm {
+            background-color: orange;
+            width: 50%;
+            margin: auto;
+        }
+        .signUp{
+            /*text-align:center;*/
+            color:yellow;
+            padding: 15px;
+        }
+        table{
+            background-color: black;
+            width: 100%;
+            padding: 10px;
+        }
+        td{
+            padding: 5px;
+        }
+        label {
+            color:yellow;
+            text-align: right;
+        }
+        .alignRight{
+            text-align: right;
+        }
+        #bottom {
+            padding: 15px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="myForm">
+            <div class="signUp">Signup</div>
+            <form>
+            <table>
+                <tr>
+                    <td class="alignRight"><label>FirstName :</label></td>
+                    <td><input type="text" name="FirstName" id="FN" value="First Name..." > </td>
+                </tr>
+                <tr>
+                    <td class="alignRight"><label>Last Name :</label></td>
+                    <td><input type="text" name="LastName" id="LN" value="Last Name..." > </td>
+                </tr>
+                <tr>
+                    <td class="alignRight"><label>Screen Name :</label></td>
+                    <td><input type="text" name="ScreenName" id="SN" value="Screen Name..." ></td>
+                </tr>
+                <tr>
+                    <td class="alignRight"><label>Date Of Birth :</label></td>
+                    <td>
+                        <select id="months">
+                            <option value="January">JANUARY</option>
+                            <option value="February">FEBRUARY</option>
+                        </select>
+                        <select id="days">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        <select id="years">
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                        </select>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="alignRight"><label>Gender :</label></td>
+                        <td>
+                            <input type="radio" id="male"><label>Male</label>
+                            <input type="radio" id="female"><label>Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="alignRight"><label>Country :</label></td>
+                        <td>
+                            <select id="countries">
+                                <option value="USA">USA</option>
+                                <option value="Brasil">Brasil</option>
+                            </select>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td class="alignRight"><label>Email :</label></td>
+                        <td><input type="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td class="alignRight"><label>Phone Number :</label></td>
+                        <td><input type="tel" id="telephone"></td>
+                    </tr>
+                    <tr>
+                        <td class="alignRight"><label>Password :</label></td>
+                        <td><input type="password" id="pass"></td>
+                    </tr> 
+                    <tr>
+                        <td class="alignRight"><label>Confirm Password :</label></td>
+                        <td><input type="password" id="conPass"></td>
+                    </tr> 
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><input type="checkbox" id="agree"><label>Agree everything</label></td>
+                    </tr>              
+            </table>
+            <div id="bottom">
+                <input type="submit" value="Register"> <button>Cancel</button>
+            </div>
+            </form> 
+        </div>
+    </body>
+</html>
+
+
+

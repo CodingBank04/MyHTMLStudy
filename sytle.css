@@ -1,0 +1,31 @@
+/* This css file is created to explain Css varibles */
+:root {
+    --myred : gray;
+    --myblue : rgba(10,10,240,0.6);
+    --mygreen : green;
+}
+div {
+    background: var(--mygreen);
+}
+.mylist {
+    color:var(--myblue);
+}
+td:first-child {
+    background: var(--myred);
+}
+tr:nth-child(even) {
+    color:var(--mygreen);
+}
+h1 {
+    background: var(--mygreen);
+    color:var(--myred);
+}
+li:nth-child(even) {
+    background: var(--myred);
+}
+Collapse
+
+
+
+
+

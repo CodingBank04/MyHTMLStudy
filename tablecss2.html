@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .mytable{
+                width:100%; 
+            }
+            .mytable th  {
+                height: 60px;
+                background: teal;
+                color:white;
+            }
+            .mytable td{
+                height: 50px;
+                text-align: center;
+                vertical-align: middle;
+            }
+            .mytable tr:hover {
+                background: lightgray;
+            }
+            .mytable tr:nth-child(even){
+                background-color: azure;
+            }
+            .mytable td,th{
+                padding: 20px;
+                border-bottom: thin black dotted;
+            }
+            .mytable table{
+                border-collapse: collapse;
+            }
+​
+        </style>
+​
+    </head>
+    <body>
+        <div style="overflow-x: auto">
+        <table class="mytable">
+            <tr>
+                <th>Name</th>
+                <th>Last Name</th>
+            </tr>
+            <tr>
+                <td>ABC</td>
+                <td>DEF</td>
+            </tr>
+            <tr>
+                <td>ABC</td>
+                <td>DEF</td>
+            </tr>
+            <tr>
+                <td>ABC</td>
+                <td>DEF</td>
+            </tr>
+            <tr>
+                <td>ABC</td>
+                <td>DEF</td>
+            </tr>
+            <tr>
+                <td>ABC</td>
+                <td>DEF</td>
+            </tr>
+        </table>
+        </div>
+        
+    </body>
+</html>

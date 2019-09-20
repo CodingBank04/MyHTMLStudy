@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            #wrapper{
+                max-width: 100%;
+                background: lightblue;
+            }
+            #wrapper div{
+                width: 90%;
+                margin: auto;
+                background: lightslategray;
+            }
+            #wrapper input,select {
+                width: 100%;
+                margin: 1em;
+                height: 40px;
+            }
+            #wrapper label {
+                text-align: right;
+                color:white;
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div><label>Name :</label><input type="text"></div>
+            <div> <label>Last Name :</label> <input type="text"> </div>
+            <div> <label>DOB :</label> <input type="date"> </div>
+            <div> <label>Gender :</label> <input type="radio" style="width: 40%"> 
+                <label>M</label> <input type="radio" style="width: 40%"> <label>F</label> </div>
+            <div> 
+                <label>Java Level :</label> 
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div></div>
+            <div> <input type="submit"> </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Layout</title>
+        <style>
+            div {
+                border:thin solid gray;
+                margin:5px;
+                padding: 10px;
+            }
+            #main {
+                overflow: auto;
+            }
+            #content_left{
+                float: left;
+                width: 20%;
+            }
+            #content_main{
+                float: left;
+                width: 50%;
+            }
+            #content_right {
+                float: left;
+                width: 20%;
+            }
+            #nav {
+                background: black;
+            }
+            #nav a:link {
+                background:lightsteelblue;
+                display: inline-block;
+                padding: 15px;
+            
+            }
+            #content_main p::first-letter {
+                font-size: xx-large;                
+            }
+            #content_main p::first-line {
+                font-style: italic;
+            }
+            #wrapper div:last-child {
+                background: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header"> Header </div>
+            <div id="nav"> 
+                <nav>
+                    <a href="#"> Menu 1 </a>
+                    <a href="#"> Menu 2 </a>
+                    <a href="#"> Menu 3 </a>
+                    <a href="#"> Menu 4 </a>
+                    <a href="#"> Menu 5 </a>
+                    <a href="#"> Menu 6 </a>
+                </nav>
+            </div>
+            <div id="main">
+                <div id="content_left">
+                    <ul>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                        <li> Nav Bar 1 </li>
+                    </ul>
+                </div>
+                <div id="content_main">
+                    <h3>Main</h3>
+                    <p>
+                    North American University is a 
+                    small university located in Houston, TX. 
+                    Houston is a metropolitan city full of opportunities.  
+                    Here at NAU, students receive personal attention and 
+                    find many options for social engagement. Our student body 
+                    represents the best of the United States of America and the 
+                    world in diversity. Our faculty is highly qualified with 
+                    doctorate degrees in their fields and a vast body of 
+                    professional experience. NAU offers a student-centered 
+                    learning environment where every student is valued and 
+                    provided with opportunities to grow.
+                    </p>
+                </div>
+                <div id="content_right">
+                    <article>
+                        This is article
+                    </article>
+                </div>
+            </div>
+            <div id="footer"> Footer </div>
+​
+        </div>
+​
+    </body>
+</html>

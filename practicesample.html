@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            div {
+                border: 1px dotted black;
+                margin : 5px;
+                padding:5px;
+            }
+        #frame {
+            overflow: auto;
+            max-width: 80%;
+            margin: auto;
+        }
+        #frame div {
+            float: left;
+        }
+        #frame a {
+            display: block;
+        }
+        #frame a:link {
+            width: 100%;
+            background: darkslategray;
+            color:white;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 0.8em;
+        }
+        #frame img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+            width: 50%;
+            outline: darkslategray thick solid;
+            padding: 5px;
+            margin-bottom: 20px;
+            margin-top:10px;
+        }
+        #heading {
+            background: darkslategray;
+            color:wheat;
+            text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="heading">
+            <h1> My Image Gallery </h1>
+        </div>
+        <div id="frame">
+            <div>
+                <img src="bkg.jpg">
+                <p>File Name</p>
+                <a href="bkg.jpg" > Click for large image </a>
+            </div>
+            <div>
+                <img src="bkg.jpg">
+                
+                <a href="bkg.jpg" > Click for large image </a>
+            </div>
+            <div>
+                <img src="bkg.jpg">
+                
+                <a href="bkg.jpg" > Click for large image </a>
+            </div>
+            <div>
+                <img src="bkg.jpg">
+                
+                <a href="bkg.jpg" > Click for large image </a>
+            </div>
+        </div>
+    </body>
+</html>
